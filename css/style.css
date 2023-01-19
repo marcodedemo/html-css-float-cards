@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Fredoka', sans-serif;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -35,6 +35,9 @@ section .card{
     background-color: #100e17;
     width:calc(1000px/3); 
     box-shadow: 5px 5px 8px lightgray;
+    overflow: hidden;
+    margin-left:2em;
+    float:left;
 }
 
 
