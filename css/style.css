@@ -37,6 +37,7 @@ section .card{
     box-shadow: 5px 5px 8px lightgray;
     overflow: hidden;
     margin-left:2em;
+    margin-bottom: 3em;
     float:left;
 }
 
