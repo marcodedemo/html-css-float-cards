@@ -19,9 +19,61 @@ header{
     padding-top: 2em;
 }
 
+main{
+    padding-top: 3em;
+}
+
 header h1 {
     color: #e5306f;
     padding-bottom: 1em;
 }
 
+/* schede team */
 
+
+section .card{
+    background-color: #100e17;
+    width:calc(1000px/3); 
+    box-shadow: 5px 5px 8px lightgray;
+}
+
+
+/* clearfix float */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* float pics + info */
+.pics{
+    height: 100px;
+    float: left;
+}
+
+.info{
+    float:left;
+ }
+
+/* pics height */
+.card .pics img{
+    max-height: 100%;
+}
+
+/* span styles */
+span{
+    display: block;
+    padding: 0.5em 0 0 1em  ;
+}
+
+span.name{
+    color: white;
+    font-weight: 600;
+}
+
+span.occupation{
+    color: white;
+}
+
+span.email{
+    color: #62b3d0;
+}
